@@ -5,26 +5,7 @@ body{
     padding: 0;
     background-color: #f5f5f5;
 }
-
-/* ---------------------
-      hero section
------------------------ */
-.container{
-    max-width: 1140px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.container a h3{
-    display: inline-block;
-    color: #3A3A3A;
-}
-.hero{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-}
-.header-text a{
+.button{
     text-decoration: none;
     padding: 10px 24px;
     background-color: #E02C6D;
@@ -35,6 +16,38 @@ body{
     margin-top: 16px;
     display: inline-block;
 }
+h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 15px 0 30px 0;
+}
+
+/* ---------------------
+      Header section
+----------------------- */
+
+.container{
+    max-width: 1047px;
+    padding: 0 15px;
+    margin: 50px auto;
+}
+.container a h3{
+    display: inline-block;
+    color: #3A3A3A;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.hero:hover .header-img{
+    transform: rotate(360deg);
+    transition: .9s all ease;
+
+}
 .header-text a i{
     padding-left: 8px;
 } 
@@ -44,10 +57,15 @@ body{
     line-height: 70px;
     margin-bottom: 16px;
 }
-.header-img{
+.header-img img{
     width: 475px;
     height: 475px;
 }
+/* ---------------------
+      Header section
+----------------------- */
+
+
 
 
 /* ---------------------
@@ -101,6 +119,7 @@ body{
     font-size: 14px;
     font-weight: bold;
     margin: 0;
+    opacity: 0.6;
 }
 .rating i{
     height: 32px;
@@ -110,6 +129,52 @@ body{
 .rating span{
     margin-left: 8px;
 }
+/* ---------------------
+      popular section
+----------------------- */
+
+
+
+
+
+/* ---------------------
+      subscription section
+----------------------- */
+.subscription-section{
+    margin: 100px 120px;
+}
+.subscription{
+    text-align: center;
+}
+.subscription input{
+    outline: none;
+    height: 45px;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    width: 500px;
+    outline: none;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 12px;
+    border: none;
+    border-radius: 5px;
+}
+/* ---------------------
+      subscription section
+----------------------- */
+
+
+
+/* ---------------------
+      Footer section
+----------------------- */
+
 .footer p{
     margin: 0px;
 }
@@ -130,3 +195,6 @@ body{
 .footer .social i{
     padding: 15px;
 }
+/* ---------------------
+      Footer section
+----------------------- */
