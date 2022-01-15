@@ -204,8 +204,29 @@ textarea{
     font-size: 14px;
     line-height: 24px;
 }
-.footer .social i{
-    padding: 15px;
+.footer .social{
+    margin-top: 20px;
+}
+.footer .social a{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    width: 32px;
+    height: 32px;
+    background-color: #313131;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 5px;
+
+}
+.footer .social a i{
+    transition: .3s;
+    margin-top: 7px;
+}
+.footer .social a i:hover{
+    color: rgb(168, 168, 168);
+    transform: scale(1.5);
 }
 /* ---------------------
       Footer section

@@ -9,7 +9,11 @@
         font-size: 40px;
     }
 }
-
+@media (max-width: 992px) {
+.popular-section {
+    padding: 0 15px;
+}
+}
 /*Medium devices (tablets)*/
 @media (max-width: 785px) {
     .container{
