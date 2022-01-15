@@ -62,4 +62,10 @@
     .products{
         grid-template-columns: repeat(1, 1fr);
     }
+    .popular-section {
+        margin-bottom: 50px;
+    }
+    .subscription-section{
+        margin: 0px 30px;
+    }
 }
