@@ -23,7 +23,7 @@ h2{
     margin: 15px 0 30px 0;
 }
 main{
-    max-width: 1080px;
+    max-width: 1140px;
     margin: 50px auto;
     width: 100%;
 }
@@ -44,11 +44,15 @@ main{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 .hero:hover .header-img{
-    transform: rotate(360deg);
+    transform: scale(1.2) rotate(360deg);
     transition: .9s all ease;
 
+}
+.header-text{
+    width: 60%;
 }
 .header-text a i{
     padding-left: 8px;
@@ -60,8 +64,8 @@ main{
     margin-bottom: 16px;
 }
 .header-img img{
-    width: 475px;
-    height: 475px;
+    width: 440px;
+    height: 440px;
 }
 /* ---------------------
       Header section
@@ -84,17 +88,9 @@ main{
     font-weight: 600;
     font-size: 28px;
 }
-.see-more{
-    position: relative;
-}
-.see-more a{
-    position: absolute;
-    right: -24px;
-    text-decoration: none;
-    color: #E02C6D;
-}
 .products{
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
 }
@@ -107,8 +103,8 @@ main{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .product img{
-    width: 300px;
-    height: 256px;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 .product h3{
@@ -131,6 +127,16 @@ main{
 .rating span{
     margin-left: 8px;
 }
+
+
+.see-more{
+    text-align: right;
+    margin-top: 20px;
+}
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
+}
 /* ---------------------
       popular section
 ----------------------- */
@@ -143,7 +149,7 @@ main{
       subscription section
 ----------------------- */
 .subscription-section{
-    margin: 100px 120px;
+    margin: 80px 120px;
 }
 .subscription{
     text-align: center;
@@ -163,7 +169,8 @@ textarea{
     outline: none;
     font-size: 18px;
     margin: 0;
-    padding-left: 12px;
+    padding-top: 15px;
+    padding-left: 15px;
     border: none;
     border-radius: 5px;
 }
